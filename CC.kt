@@ -1,7 +1,7 @@
 object C{
 	fun main(){
 		for(s in 1..400){
-			val url=URL(spec:"TypeURLhere");
+			val url=URL(spec:"TypeURLhere")
 			run(url)
 		}
 	}
@@ -9,8 +9,8 @@ object C{
 		Thread{
 			url.openStream()
 			println(OK)
-			run(url);
+			run(url)
 		}.start()
 	}
 }
-fun main()=C.main();
+fun main()=C.main()
