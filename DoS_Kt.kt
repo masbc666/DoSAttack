@@ -3,7 +3,7 @@ import java.net.URL
 object DoS_Kt{
     fun main()
     {
-        val url= URL("https://www.baidu.com")
+        val url= URL("http://TypeURLhere")
         for(s in 1..400)
         {
             run(url)
